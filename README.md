@@ -88,3 +88,6 @@ al dar click en cuenta nos llevara hacia la inforación del usuario, en este cas
 ![account monoma](https://github.com/juxnmxG/Prueba-tecnica-monoma/assets/61563571/322c0b6b-02bb-46ef-adc1-8ffd0a9f23dd)
 
 
+## Notas:
+
+para poder ejecutar la aplicación se realiza con el comando npm run dev ya que esta creada apartir de vite
