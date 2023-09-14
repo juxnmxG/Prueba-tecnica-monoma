@@ -1,0 +1,27 @@
+[
+  {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJjb3JyZW8iOiJ1c3VhcmlvMUBleGFtcGxlLmNvbSIsImNvbnRyYXNlw7FhIjoiY29udHJhc2XDsWExIn0.HgK8s623iKDGj-YjEKT-_2wLXc8PGjihQvsZ6r8r0E0",
+    "email": "usuario1@example.com",
+    "password": "contraseña1"
+  },
+  {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJjb3JyZW8iOiJ1c3VhcmlvMkBleGFtcGxlLmNvbSIsImNvbnRyYXNlw7FhIjoiY29udHJhc2XDsWEyIn0.FP_wQAt4NuNgtpC6cCtyOXP5ptQM_hBwUPu-A0cxDds",
+    "email": "usuario2@example.com",
+    "password": "contraseña2"
+  },
+  {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJjb3JyZW8iOiJ1c3VhcmlvM0BleGFtcGxlLmNvbSIsImNvbnRyYXNlw7FhIjoiY29udHJhc2XDsWEzIn0.bHKv7yq3wUzQPb9xg06RfZBKjtEvUswZMs2o4zpX1Fw",
+    "email": "usuario3@example.com",
+    "password": "contraseña3"
+  },
+  {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJjb3JyZW8iOiJ1c3VhcmlvNEBleGFtcGxlLmNvbSIsImNvbnRyYXNlw7FhIjoiY29udHJhc2XDsWE0In0.oVS2AbHPfJTEcoOm9I7Fo4-FcH7WpAANbBy93mziXfw",
+    "email": "usuario4@example.com",
+    "password": "contraseña4"
+  },
+  {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJjb3JyZW8iOiJ1c3VhcmlvNUBleGFtcGxlLmNvbSIsImNvbnRyYXNlw7FhIjoiY29udHJhc2XDsWE1In0.sUXhYlyTfBp5uTEpK4NNe6H5fyR-bf8LbrPPvgFlI8U",
+    "email": "usuario5@example.com",
+    "password": "contraseña5"
+  }
+]
