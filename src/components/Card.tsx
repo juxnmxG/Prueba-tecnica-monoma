@@ -2,6 +2,7 @@ import UsePokemon from "../Hooks/UsePokemon";
 import { background } from "../utils/BackgroundsByType";
 import styled from "styled-components";
 import ImgPockeBall from "./../assets/pockeball.png";
+import Loading from "./Loading";
 
 const PockeBall = styled.img`
   width: auto;
@@ -23,7 +24,7 @@ function Card({ name, url, setModalIsOpen, setPokemonSelected }: Props) {
   const { dataPokemon } = UsePokemon(url);
   const backgroundSelected = background[dataPokemon?.types[0]?.type?.name];
 
-  const handleClickCard = () => {
+  const handleClickCard = (): void => {
     setModalIsOpen(true);
     setPokemonSelected(dataPokemon);
   };
@@ -50,8 +51,9 @@ function Card({ name, url, setModalIsOpen, setPokemonSelected }: Props) {
             alt="Sunset in the mountains"
           />
         ) : (
-          "Cargando..."
+          <Loading />
         )}
+        
         <h1 className="absolute bottom-1 right-2">
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
             Peso: {dataPokemon ? dataPokemon?.weight : "Cargando..."}

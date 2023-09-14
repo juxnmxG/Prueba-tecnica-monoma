@@ -29,7 +29,6 @@ function Login() {
     const passwordSend: string = data.password;
 
     authenticate(emailSend, passwordSend).then((result) => {
-      console.log(result);
       if (result === "Inicio de sesión exitoso") {
         window.location.href = "/";
       }

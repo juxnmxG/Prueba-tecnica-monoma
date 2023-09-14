@@ -1,4 +1,5 @@
 import useAuth from "../Hooks/UseAuth";
+import Loading from "./Loading";
 
 interface Props {
   Component: any;
@@ -7,12 +8,11 @@ function RoutePrivate({ Component }: Props) {
   const { isAuthenticate, isLoading } = useAuth();
 
   if (isLoading) {
-    return <div>Cargando...</div>;
+    return <Loading />;
   }
 
   if (!isAuthenticate && !isLoading) {
-    console.log(isAuthenticate);
-    window.location.href = "/auth/login"
+    window.location.href = "/auth/login";
   }
 
   if (isAuthenticate && !isLoading) {

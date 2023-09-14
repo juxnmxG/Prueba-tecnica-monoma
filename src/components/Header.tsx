@@ -12,7 +12,6 @@ const ImgLogo = styled.img`
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const { user } = useAuth();
-  console.log(user);
 
   const logout = (): void => {
     window.localStorage.removeItem("token");
