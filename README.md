@@ -52,6 +52,21 @@ para poder hacer el respectivo ingreso a la plataforma he creado un json como se
 ]
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Solución dashboard
+Para esta solución he propuesto la siguiente vista:
+![Dasboard monoma](https://github.com/juxnmxG/Prueba-tecnica-monoma/assets/61563571/fa70857d-d819-4f42-9795-862890c07654)
+
+donde se puede evidenciar el diseño requerido, y poniendo colores personalizados dependiendo el tipo de pokemon que se muestre, cada tipo de pokemon tiene un color que lo identifica como se muestra en la imagen. Tambien se puede observar la paginación.
+
+![paginate](https://github.com/juxnmxG/Prueba-tecnica-monoma/assets/61563571/814aa290-a7a4-4a0f-8d92-052be80bc67a)
+
+Al dar click en cada carta se depliega un popup con la información de pokemon de manera que podremos ver los detalles del pokemon:
+![details monoma](https://github.com/juxnmxG/Prueba-tecnica-monoma/assets/61563571/4e289df3-4e54-4324-820c-b7d56ba6bab0)
+
+para el  header he colocado el logo de MONOMA y un botón que muestra una imagén del usuario que al dar click despliega un dropdwon con diferentes opciones 
+
+
+
+![logo monoma](https://github.com/juxnmxG/Prueba-tecnica-monoma/assets/61563571/477ebce1-b3f2-4ecc-937a-b9602ede9bed)
+
+
