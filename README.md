@@ -51,6 +51,24 @@ para poder hacer el respectivo ingreso a la plataforma he creado un json como se
   }
 ]
 ```
+##
+Principal o dashboard: En esta página debe contener un navbar o header en el
+que pueda ver el logo o texto de como llamarias el proyecto (Puedes utilizar el logo
+de monoma sin inconveniente), y debe tener una lista de cartas de máximo 10 cartas
+de pokemones por página, y en la parte final de la página debe haber una
+“paginación” indicando cuantas paginas tengo para poder ver los distintos
+pokemons.
+Cada una de las cartas debe abrir un modal o página donde aparezca la información
+del pokémon seleccionado. En el header del dashboard debe haber un avatar que al
+momento de hacer click se me despliegue un menú donde uno de ellos se el botón
+de cerrar sesión (Sería un plus si se pudiera ver una página con la información del
+usuario logueado)
+Debes generar un token (puedes crear un token en la página de JWT token y
+colocarlo en la respuesta del endpoint o del objeto que creaste en el archivo json)
+que debes guardar en el localStorage o sessionStorage como gustes para poder
+validar que este mismo existe, si ingresas a la página del dashboard y no existe este
+token debes enviarlo a la página de login y si ingresas a la pagina del login y existe
+este token debes enviarlo a la página del dashboard.
 
 ## Solución dashboard
 Para esta solución he propuesto la siguiente vista:
@@ -64,9 +82,9 @@ Al dar click en cada carta se depliega un popup con la información de pokemon d
 ![details monoma](https://github.com/juxnmxG/Prueba-tecnica-monoma/assets/61563571/4e289df3-4e54-4324-820c-b7d56ba6bab0)
 
 para el  header he colocado el logo de MONOMA y un botón que muestra una imagén del usuario que al dar click despliega un dropdwon con diferentes opciones 
-
-
-
 ![logo monoma](https://github.com/juxnmxG/Prueba-tecnica-monoma/assets/61563571/477ebce1-b3f2-4ecc-937a-b9602ede9bed)
+
+al dar click en cuenta nos llevara hacia la inforación del usuario, en este caso hice un diseño básico
+![account monoma](https://github.com/juxnmxG/Prueba-tecnica-monoma/assets/61563571/322c0b6b-02bb-46ef-adc1-8ffd0a9f23dd)
 
 
